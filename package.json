@@ -1,5 +1,5 @@
 {
-  "name": "Turbo-Test",
+  "name": "the-kallisto-project",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -9,16 +9,15 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
-    "prettier": "^3.7.4",
-    "turbo": "^2.8.7",
-    "typescript": "5.9.2"
+    "turbo": "^2.8.7"
   },
   "engines": {
     "node": ">=18"
   },
   "packageManager": "npm@10.9.2",
   "workspaces": [
-    "apps/*",
-    "packages/*"
+    "config/*",
+    "packages/*",
+    "apps/*"
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@repo/eslint-config",
+  "name": "@kallisto/eslint",
   "version": "0.0.0",
   "type": "module",
   "private": true,
