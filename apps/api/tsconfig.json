@@ -1,0 +1,20 @@
+{
+  "extends": "@kallisto/typescript/base.json",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "baseUrl": ".",
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "types": [
+      "node"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx",
+    "outDir": "./build"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
