@@ -13,6 +13,7 @@
   "devDependencies": {
     "@kallisto/typescript": "workspace:*",
     "@kallisto/eslint": "workspace:*",
+    "@kallisto/shared": "workspace:*",
     "@types/node": "^20.11.17",
     "tsx": "^4.7.1",
     "typescript": "^5.8.3"

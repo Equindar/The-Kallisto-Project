@@ -1,0 +1,3 @@
+{
+    "extends": "@kallisto/typescript/base.json"
+}

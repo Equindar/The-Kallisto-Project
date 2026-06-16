@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+html,
+body {
+  font-size: 16px;
+}
